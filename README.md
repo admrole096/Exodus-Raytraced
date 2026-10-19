@@ -1,4 +1,12 @@
-# Low-res 3D engine
+# Exodus: Raytraced
+
+A 3d game with Doom-like graphics with simple raytracing but full 3D (not "2.5D") about the 10 plagues.
+
+# How the graphics work (simply)
+
+Instead of just 1D of lines (left to right) measuring distance and scaling columns, it casts 2D of lines (top-left to bottom-right) and measuring the distance and displaying pixels so that the player has all 360° of freedom.
+
+# 3D engine (for geeks🤓)
 
 C99 software 3D engine: fixed point, scanline rasterizer, real look up/down, BSP draw order,
 player physics, OBJ converter, module system. Core and framework are frozen; features are modules.
